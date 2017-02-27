@@ -1,0 +1,10 @@
+{{yield}}
+<canvas id="myCanvas" width={{level.pixelWidth}} height={{level.pixelHeight}}></canvas>
+
+<div class="">
+  Score: {{score}} &nbsp; &nbsp; &nbsp; Level: {{levelNumber}} &nbsp; &nbsp; &nbsp; Lives: {{lives}}
+  &nbsp; &nbsp; &nbsp;
+  {{#if pac.powerMode}}
+    PowerMode: {{pac.powerModeTime}}
+  {{/if}}
+</div>
